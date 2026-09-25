@@ -1,0 +1,6 @@
+{
+  "positive_rate": 0.271,
+  "auc_2024": 0.676,
+  "threshold": 0.184,
+  "feature_importance": {}
+}

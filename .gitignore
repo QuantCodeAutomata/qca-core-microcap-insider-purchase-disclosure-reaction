@@ -1,0 +1,109 @@
+# =============================================================================
+# Python
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# Distribution / packaging
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+*.ipynb
+
+# pyenv
+.python-version
+
+# =============================================================================
+# Project-specific: Data cache (large / regenerable files)
+# =============================================================================
+data/cache/
+
+# Parquet files anywhere in the project (regenerable)
+*.parquet
+
+# =============================================================================
+# Results: ignore PNGs but keep CSVs and RESULTS.md
+# =============================================================================
+results/*.png
+results/exp2/*.png
+
+# =============================================================================
+# Editor / OS artefacts
+# =============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# =============================================================================
+# MLflow / experiment tracking
+# =============================================================================
+mlruns/
+mlartifacts/
+
+# =============================================================================
+# Secrets / credentials  (never commit these)
+# =============================================================================
+.env
+.env.*
+secrets.json
+credentials.json
+
+# =============================================================================
+# Explicitly NOT ignored (override patterns above where needed)
+# =============================================================================
+# Keep results summaries and tabular outputs in version control
+!results/RESULTS.md
+!results/*.csv
+!results/exp2/RESULTS_exp2.md
+!results/exp2/*.csv
+!results/exp2/*.json
