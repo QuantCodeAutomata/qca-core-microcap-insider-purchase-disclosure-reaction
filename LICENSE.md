@@ -1,0 +1,4 @@
+LIMITED LICENSE TO USE QCA
+
+Subject to these Terms and payment of applicable fees, the Company grants you a limited, revocable, non-exclusive, non-transferable, non-sublicensable license during the applicable subscription or access period to access and use QCA for your internal personal or business research purposes.
+Except where expressly permitted in writing, you may not: (a) sell, resell, sublicense, rent, lease, distribute, or make the Service available to third parties; (b) copy, scrape, crawl, systematically download, or create a competing database from QCA; (c) reverse engineer, decompile, disassemble, discover, extract, or attempt to derive the source code, prompts, model weights, orchestration logic, security mechanisms, or non-public components of QCA; (d) bypass access, rate, payment, safety, geographic, or usage controls; (e) use QCA to benchmark or develop a competing service except with our written consent; or (f) remove proprietary notices.
